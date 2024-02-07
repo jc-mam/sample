@@ -30,7 +30,6 @@ function handleStart(evt) {
   }
 }
 
-
 function handleMove(evt) {
   evt.preventDefault();
   const el = document.getElementById('canvas');
@@ -133,4 +132,4 @@ function log(msg) {
   container.textContent = `${msg} \n${container.textContent}`;
 }
 
-
+console.log('hello');
